@@ -1,6 +1,11 @@
 @import 'base';
 
 
+.geral {
+  @extend .mx-auto;
+  padding-top: 90px;
+}
+
 .grid {
   @extend .row
 }
